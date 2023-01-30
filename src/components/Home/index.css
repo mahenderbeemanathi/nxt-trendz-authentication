@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-desktop-img {
+    display: none;
+  }
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: roboto;
+}
+.home-heading {
+  color: #1e293b;
+}
+.home-description {
+  color: #475569;
+}
+.shop-now-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 10px;
+}

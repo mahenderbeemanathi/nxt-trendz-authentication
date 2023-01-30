@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  font-family: roboto;
+}
+.website-login-image {
+  height: 300px;
+  width: 500px;
+}
+.website-logo {
+  height: 80px;
+  width: 180px;
+}
+.login-website-logo-desktop-image {
+  height: 80px;
+  width: 180px;
+}
+.login-button {
+  width: 170px;
+  margin-top: 15px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-style: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+.err-msg {
+  color: #ff0b37;
+  font-size: 10px;
+}
+@media screen and (max-width: 991px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-website-logo-desktop-image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo-mobile {
+    display: none;
+  }
+}
